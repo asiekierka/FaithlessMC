@@ -119,7 +119,7 @@ public class ProxyClient extends ProxyCommon {
 					if (data.length > 0 && data[0] != null) {
 						int mm = m;
 						while (mm > 1) {
-							data[0] = Scale2x.scale(data[0], ow * m / mm, oh * m / mm, wrap);
+							data[0] = Faithless.algorithm.scale(data[0], ow * m / mm, oh * m / mm, wrap);
 							mm >>= 1;
 						}
 					}
