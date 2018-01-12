@@ -1,0 +1,17 @@
+{
+    "modListVersion": 2,
+    "modList": [
+        {
+            "modid": "faithless",
+            "name": "Faithless",
+            "version": "${version}",
+            "mcversion": "${mcversion}",
+            "description": "Losing faith in automated texture upscaling",
+            "authorList": [
+                "asiekierka"
+            ],
+            "url": "http://asie.pl/files/mods/Faithless",
+            "updateUrl": "http://asie.pl/files/minecraft/update/faithless.json"
+        }
+    ]
+}
