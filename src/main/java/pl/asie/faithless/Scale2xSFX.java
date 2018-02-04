@@ -35,10 +35,10 @@ public final class Scale2xSFX {
 				int G = Faithless.get(sourcePixels, x - 1, y + 1, width, height, wrap);
 				int H = Faithless.get(sourcePixels, x, y + 1, width, height, wrap);
 				int I = Faithless.get(sourcePixels, x + 1, y + 1, width, height, wrap);
-				int J = Faithless.get(sourcePixels, x - 1, y - 1, width, height, wrap);
-				int K = Faithless.get(sourcePixels, x - 1, y - 1, width, height, wrap);
-				int L = Faithless.get(sourcePixels, x - 1, y - 1, width, height, wrap);
-				int M = Faithless.get(sourcePixels, x - 1, y - 1, width, height, wrap);
+				int J = Faithless.get(sourcePixels, x, y - 2, width, height, wrap);
+				int K = Faithless.get(sourcePixels, x - 2, y, width, height, wrap);
+				int L = Faithless.get(sourcePixels, x + 2, y, width, height, wrap);
+				int M = Faithless.get(sourcePixels, x, y + 2, width, height, wrap);
 
 				boolean equalBD = Faithless.compareEqual(B, D);
 				boolean equalBF = Faithless.compareEqual(B, F);
